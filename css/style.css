@@ -48,3 +48,9 @@ h2{font-size:clamp(38px,5vw,62px);line-height:1.1;letter-spacing:-2.5px;margin-t
 @media(max-width:520px){
  .skills-grid{grid-template-columns:1fr}.profile-grid{grid-template-columns:1fr}.project-details{grid-template-columns:1fr}.hero h1{font-size:48px}.hero-copy{font-size:15px}.footer .container{display:block}.footer span{display:block;margin:5px 0}
 }
+
+.shots{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.shots figure{margin:0;border:1px solid var(--line);background:var(--surface);overflow:hidden}
+.shots img{display:block;width:100%;height:auto}
+.shots figcaption{padding:10px 14px;font-size:13px;color:#78818a}
+@media(max-width:520px){.shots{grid-template-columns:1fr}}
