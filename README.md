@@ -3,7 +3,7 @@
 ITエンジニアを目指す学生（2027年3月卒業予定）のポートフォリオサイトです。
 自己紹介、スキル、制作物、経歴、資格をまとめています。
 
-**公開URL:** https://minhchung21.github.io/minhchung21.github.io./
+**公開URL:** https://minhchung21.github.io
 
 ## 掲載内容
 
@@ -11,9 +11,14 @@ ITエンジニアを目指す学生（2027年3月卒業予定）のポートフ�
 |---|---|
 | About | 自己紹介 |
 | Skills | Java / Python / JavaScript / SQL / Servlet・JSP / Django / Git など |
-| Projects | [得点管理システム](https://github.com/minhchung21/sms)（Java Servlet/JSP） |
+| Projects | [得点管理システム](https://github.com/minhchung21/sms)（Java Servlet/JSP、チーム開発） |
 | Experience | 学歴・アルバイト・技能実習の経験 |
-| Qualifications | 基本情報技術者試験 科目A、日本語能力試験 N1 など |
+| Qualifications | 日本語能力試験 N1、漢字検定 3級 |
+
+## 制作物について
+
+学校の授業で、お客様の要望に基づく成績管理システムの開発にチームで取り組みました。
+事前に用意された設計資料をもとに、各工程をチーム全員で進め、工程ごとに振り返りながら、テストまで行いました。
 
 ## 使用技術
 
