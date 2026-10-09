@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NGUYEN CONG MINH CHUNG - ITエンジニア ポートフォリオ">
+  <title>NGUYEN CONG MINH CHUNG | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">MC<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="メニュー">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">IT ENGINEER / 2027 GRADUATE</p>
+        <h1>NGUYEN CONG<br><span>MINH CHUNG</span></h1>
+        <p class="hero-copy">
+          日本でITエンジニアとして成長し、<br>
+          チームで価値のあるシステムを作れるエンジニアを目指しています。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Projects ↓</a>
+          <a class="btn btn-secondary" href="#contact">Contact</a>
+        </div>
+        <div class="hero-tags">
+          <span>Java</span><span>Servlet/JSP</span><span>SQL</span><span>Python</span><span>Django</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">01 / ABOUT</p>
+          <h2>自分で学び、<br><span>実際に作る。</span></h2>
+        </div>
+        <div class="about-text">
+          <p>
+            千葉情報ITクリエイター専門学校でシステム開発を学んでいる、2027年3月卒業予定の学生です。
+            Java、Python、Django、JavaScript、SQLなどを学び、授業で学んだ内容を実際の制作物に落とし込むことを意識しています。
+          </p>
+          <p>
+            オブジェクト指向分析・設計やWebアプリケーション開発を学びながら、
+            Java Servlet/JSPで得点管理システムを制作しました。画面からデータベースまでの一連の流れを、自分の手で実装しています。
+          </p>
+          <div class="profile-grid">
+            <div><small>NAME</small><strong>NGUYEN CONG MINH CHUNG</strong></div>
+            <div><small>LOCATION</small><strong>Chiba, Japan</strong></div>
+            <div><small>GRADUATION</small><strong>March 2027</strong></div>
+            <div><small>LANGUAGE</small><strong>Japanese / Vietnamese</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <p class="section-label">02 / SKILLS</p>
+        <div class="section-heading">
+          <h2>技術・学習分野</h2>
+          <p>学校での学習・制作で使用している技術です。</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-number">01</div><h3>Programming</h3>
+            <p>Java / Python / JavaScript</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">02</div><h3>Web Development</h3>
+            <p>HTML / CSS / JSP・Servlet / Django</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">03</div><h3>Database</h3>
+            <p>SQL / JDBC / H2</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">04</div><h3>Architecture</h3>
+            <p>MVC / FrontController / DAO</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">05</div><h3>Development</h3>
+            <p>Git / GitHub / Eclipse / Tomcat / VS Code</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">06</div><h3>Analysis & Design</h3>
+            <p>UML / ユースケース / クラス図 / OOA・D</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-label">03 / PROJECTS</p>
+        <div class="section-heading">
+          <h2>制作実績</h2>
+          <p>学習した内容を、実際のシステム制作につなげています。</p>
+        </div>
+
+        <article class="project">
+          <div class="project-visual grade-visual">
+            <span class="project-icon">▣</span>
+            <span class="visual-city">SCORE MANAGEMENT</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>学校制作</span><span>JAVA / WEB</span></div>
+            <h3>得点管理システム</h3>
+            <p>
+              教員がログインして、学生・クラス・科目・成績・出席を管理するWebアプリケーションです。
+              フロントコントローラー、Action、DAO、JSPに役割を分けたMVC構成で実装しました。
+            </p>
+            <div class="tech-list"><span>Java</span><span>Servlet/JSP</span><span>JSTL</span><span>JDBC</span><span>H2</span><span>Tomcat 10</span></div>
+            <div class="project-details">
+              <div><small>FEATURES</small><strong>ログイン / 学生・クラス・科目の管理 / 成績登録と一覧 / 出席管理</strong></div>
+              <div><small>FOCUS</small><strong>MVC設計 / DAOによるDB操作 / 画面遷移の制御</strong></div>
+            </div>
+            <a class="text-link" href="https://github.com/minhchung21/sms" target="_blank" rel="noopener">GitHub で見る →</a>
+          </div>
+        </article>
+
+        <div class="shots">
+          <figure><a href="assets/menu.png" target="_blank" rel="noopener"><img src="assets/menu.png" alt="得点管理システムのメニュー画面" loading="lazy"></a><figcaption>メニュー</figcaption></figure>
+          <figure><a href="assets/student_list.png" target="_blank" rel="noopener"><img src="assets/student_list.png" alt="学生管理の一覧画面" loading="lazy"></a><figcaption>学生管理</figcaption></figure>
+          <figure><a href="assets/test_regist1.png" target="_blank" rel="noopener"><img src="assets/test_regist1.png" alt="成績登録画面" loading="lazy"></a><figcaption>成績登録</figcaption></figure>
+          <figure><a href="assets/attendance_list_action.png" target="_blank" rel="noopener"><img src="assets/attendance_list_action.png" alt="出席登録画面" loading="lazy"></a><figcaption>出席登録</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container two-col">
+        <div>
+          <p class="section-label">04 / EXPERIENCE</p>
+          <h2>これまでの経験</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2025 — 2027</span>
+            <h3>千葉情報ITクリエイター専門学校</h3>
+            <p>システム開発、Java、Python、Web開発、データベース、オブジェクト指向分析・設計などを学習。</p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2023 — PRESENT</span>
+            <h3>アルバイト / コンビニエンスストア</h3>
+            <p>接客、レジ、品出し、清掃、新人への業務説明などを経験。日本語での接客コミュニケーションを継続して実践しています。</p>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2019 — 2022</span>
+            <h3>技能実習 / 金属プレス</h3>
+            <p>製造現場で責任感と正確性を身につけ、決められた手順を守って作業する経験を積みました。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section qualifications">
+      <div class="container">
+        <p class="section-label">05 / QUALIFICATIONS</p>
+        <div class="qualifications-list">
+          <div><span>2025.11</span><strong>基本情報技術者試験 科目A 合格</strong></div>
+          <div><span>2025.09</span><strong>漢字検定 3級</strong></div>
+          <div><span>2024.07</span><strong>日本語能力試験 N1</strong></div>
+          <div><span>2021.07</span><strong>日本語能力試験 N2</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <p class="section-label">06 / CONTACT</p>
+        <h2>一緒に<br><span>ものづくりを。</span></h2>
+        <p>採用・面談・制作物についてのお問い合わせはこちらから。</p>
+        <div class="contact-actions">
+          <!-- メールを載せる場合は、下の行のコメントを外して自分のアドレスに変更してください -->
+          <!-- <a class="btn btn-primary" href="mailto:your-address@example.com">Email ↗</a> -->
+          <a class="btn btn-primary" href="https://github.com/minhchung21" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><span>© 2026 NGUYEN CONG MINH CHUNG</span><span>PORTFOLIO / IT ENGINEER</span></div>
+  </footer>
+
+  <button id="topBtn" class="top-btn" aria-label="ページ上部へ">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
