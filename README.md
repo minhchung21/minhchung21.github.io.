@@ -3,7 +3,7 @@
 ITエンジニアを目指す学生（2027年3月卒業予定）のポートフォリオサイトです。
 自己紹介、スキル、制作物、経歴、資格をまとめています。
 
-**公開URL:** https://minhchung21.github.io
+**公開URL:** https://minhchung21.github.io/minhchung21.github.io./
 
 ## 掲載内容
 
